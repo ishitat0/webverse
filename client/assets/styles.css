@@ -1,0 +1,72 @@
+body{
+    background-color: #EEE3CB!important;
+}
+
+*{
+    text-align: center;
+    
+}
+h1{
+    color: #7c4662;
+}
+
+h2{
+    text-align: left;
+}
+
+img{
+    margin-bottom: 50px!important;
+    width: 12%;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none!important;
+    color: white !important;
+}
+
+.header{
+    background-color:#7b3d6f;
+    width: 96%;
+    height: 150px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 25px;
+   
+}
+
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    background-color:#7c4662;
+    padding: 50 50;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.student{
+    border-style: outset;
+    padding: 20 70 20 70; 
+    border-radius: 50%;
+}
+
+.faculty{
+    border-style: outset;
+    padding: 20 70 20 70;
+    border-radius: 50%;
+
+}
+
+.warden{
+    border-style: outset;
+    padding: 20 70 20 70;
+    border-radius: 50%;
+
+}
+
+
+i{
+    position: relative;
+    margin-right: 30px;
+}

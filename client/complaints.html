@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\prana\OneDrive\Documents\Web Development\webverse\client\assets\style.css">
+    <title>Complaint Menu</title>
+</head>
+<body>
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h3>Complaint Menu</h3>
+            <p>File your complaint here!</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <label for="fname">Registration Number</label><br>
+          <input type="text" id="fname" name="firstname"><br><br>
+        </div>
+        <div class="mainContainer">
+            <label for="question">Type Of Complaint</label><br>
+        <select name="question" id="question">
+        <option value="q1">Electrical</option>
+        <option value="q2">Civil</option>
+        <option value="q3">Plumbic</option>
+        <option value="q4">Mess Related</option>
+        <option value="q5">Others</option></select><br><br>
+        </div>
+        <div class="mainContainer">
+            <label for="fname">Complaint Date</label><br>
+          <input type="date" id="fname" name="firstname"><br><br>
+        </div>
+        <div class="mainContainer">
+            <label for="ques">Complaint Severity</label><br>
+        <select name="ques" id="ques">
+        <option value="q1">High</option>
+        <option value="q2">Medium</option>
+        <option value="q3">Low</option></select><br><br> 
+        </div>
+        <div class="mainContainer">
+            <label for="subject">Complaint Description</label><br>
+          <textarea id="subject" name="subject" placeholder="Describe the complaint" style="height:200px"></textarea><br><br>
+        </div>
+        
+        <button type="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>
